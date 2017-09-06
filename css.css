@@ -1,0 +1,98 @@
+* {
+	font-family: Verdana, Sans-Serif;
+}
+.column {
+	vertical-align: top;
+	display: inline-block;
+	border: 1px solid #ccc;
+}
+.column > input[type="text"] {
+	width: 98%;
+}
+.column > div {
+	display: none;
+}
+.column p {
+	display: inline-block;
+	margin: 2px 5px;
+}
+#msg {
+	position: fixed;
+	top: 2px;
+	right: 2px;
+	background-color: #fff;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	margin: 0px;
+}
+#hud {
+	border-bottom: 1px solid #000;
+	padding: 2px;
+}
+#hud a {
+	color: #000;
+	text-decoration: none;
+	transition: color 100ms;
+}
+#hud a:hover {
+	color: #888;
+}
+.menuItem {
+	display: inline-block;
+	margin: 0px;
+	padding: 2px 10px;
+}
+#menuUsername {
+	background-color: #eee;
+}
+.tabs > div:not(.tabActive):not(.tabMenu) {
+	display: none;
+}
+.tabs > div:not(:first-of-type) {
+	border: 1px solid #aaa;
+	padding: 5px;
+	margin: 5px 0px;
+}
+.tabActive {
+	display: inline-block;
+}
+.tabmenuItem {
+	color: #888;
+	transition: color 200ms;
+}
+.tabmenuActive {
+	color: #000;
+}
+p {
+	margin: 0px;
+}
+.menuCard {
+	text-decoration: none;
+	display: block;
+	background-color: #afa;
+	padding: 5px;
+	margin: 1px;
+	color: #000;
+	transition: background-color 200ms, color 200ms;
+}
+.menuCard:hover {
+	background-color: #cfc;
+	color: #060;
+}
+.statusSteps > span {
+	border: 1px solid #000;
+	background-color: #eee;
+	margin: 0px 2px;
+	padding: 2px 10px;
+}
+.statusSteps > span:not(:last-of-type) {
+	border-radius: 0px 100px 100px 0px;
+}
+
+
+
+
+
+
+
+
