@@ -2,6 +2,7 @@
 session_name("itsupport");
 session_start();
 require("sql.php");
+require("functions.php");
 ?>
 <!DOCTYPE html>
 <html>

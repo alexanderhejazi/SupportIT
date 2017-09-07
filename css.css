@@ -79,19 +79,33 @@ p {
 	background-color: #cfc;
 	color: #060;
 }
+.statusSteps {
+	padding: 2px 0px;
+}
 .statusSteps > span {
 	border: 1px solid #000;
 	background-color: #eee;
-	margin: 0px 2px;
+	margin: 0px 10px 0px 0px;
 	padding: 2px 10px;
+	min-width: 50px;
+	color: #aaa;
+}
+.statusSteps > span:first-of-type {
+	color: #0a0;
 }
 .statusSteps > span:not(:last-of-type) {
 	border-radius: 0px 100px 100px 0px;
 }
 
+.framed {
+	margin: 5px 0px;
+	background-color: #eee;
+	border: 1px solid #aaa;
+}
 
-
-
+.red {
+	color: #f00;
+}
 
 
 
