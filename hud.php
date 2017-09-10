@@ -14,6 +14,9 @@ $activeCases = sql::get("SELECT COUNT(*) AS c FROM cases WHERE owner = ".$_SESSI
 echo "<a href=\"cases.php\">Ärenden (".$activeCases[0]["c"].")</a>";
 ?>
 </p>
+<p id="menuNewCase" class="menuItem">
+<a href="newcase.php">Nytt ärende</a>
+</p>
 <?php
 	
 } else {
